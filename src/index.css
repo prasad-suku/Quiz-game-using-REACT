@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #1b1717;
+  display: grid;
+  place-items: center;
+}
+
+.quiz-app {
+  min-width: 600px;
+  background: white;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 0.61rem;
+  box-shadow: 4px 3px 2px rgb(114, 109, 109);
+}
+
+.scoresection {
+  text-align: center;
+}
+
+.scoresection button {
+  background: green;
+  margin-top: 1rem;
+  padding: 7px 19px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* question section */
+
+.questionsection {
+  text-align: center;
+}
+
+.questionsection .question {
+  padding-left: 2rem;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.options p {
+  /* border: 1px solid black; */
+  margin-bottom: 9px;
+  background: #2e8ca8;
+  color: white;
+  padding: 6px;
+
+  border-radius: 7px;
+  text-transform: capitalize;
+}
+
+.options p:hover {
+  background: #43ca22;
+}
+
+.timer {
+  font-weight: 380;
+  margin-top: 1rem;
+}
+.timer span {
+  font-weight: 600;
+}
